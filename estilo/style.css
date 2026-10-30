@@ -1,3 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
 body{
     background-color: black;
+}
+
+header{
+    position: absolute;
+    left: 50%;
+    top: 1.2%;
+    
+    
+}
+
+header nav ul a{
+    margin: 50px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.foto{
+   margin-left: 800px;
+   margin-top: 300px;
+}
+
+.foto img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
