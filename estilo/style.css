@@ -42,6 +42,7 @@ header nav ul a{
     bottom: 50%;
     left: 150px;
     font-size: 20px;
+    animation: aparecer2 1s ease-out;
 }
 
 h3{
@@ -82,6 +83,8 @@ p{
     border-radius: 30px;
     padding: 10px;
 
+    animation: aparecer2 1s ease-out;
+
 }
 
 .botao :hover{
@@ -103,6 +106,8 @@ p{
     border-radius: 30px;
     padding: 10px;
 
+    animation: aparecer2 1s ease-out;
+
 }
 
 .botao2 :hover{
@@ -116,11 +121,40 @@ p{
     right: 20px;
     width: 800px;
     z-index: 100;
+    animation: aparecer 1s ease-out;
 }
 
 .foto img {
     width: 100%;
     max-width: 800px;
     height: auto;
+}
+
+@keyframes aparecer {
+
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+}
+
+@keyframes aparecer2 {
+
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
 }
 
