@@ -25,16 +25,18 @@ header{
     position: absolute;
     left: 55%;
     top: 1.2%;
+    width: 600px;
 }
 
 header nav ul a{
-    margin: 50px;
+    margin: 35px;
     padding-right: 10px;
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-weight: 600;
 }
+
 
 .nome{
     position: fixed;
