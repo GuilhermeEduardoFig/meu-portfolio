@@ -25,9 +25,12 @@ header nav ul a{
     color: white;
 }
 
-.foto{
-   margin-left: 800px;
-   margin-top: 300px;
+.foto {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 500px;
+    z-index: 100;
 }
 
 .foto img {
