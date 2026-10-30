@@ -112,7 +112,7 @@ p{
 
 .foto {
     position: fixed;
-    bottom: 20px;
+    bottom: -1px;
     right: 20px;
     width: 800px;
     z-index: 100;
