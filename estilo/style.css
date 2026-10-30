@@ -1,21 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --fundo: #0B0D12;
+    --cinza-escuro: #171A21;
+    --vermelho: #E53935;
+    --branco: #F5F5F5;
+    --cinza: #A0A0A0;
 }
 
 body{
-    background-color: black;
+    background-color: var(--fundo);
 }
 
 header{
     position: absolute;
-    left: 50%;
+    left: 55%;
     top: 1.2%;
-    
-    
 }
 
 header nav ul a{
@@ -23,18 +32,95 @@ header nav ul a{
     padding-right: 10px;
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nome{
+    position: fixed;
+    margin-left: 20px;
+    bottom: 50%;
+    left: 150px;
+    font-size: 20px;
+}
+
+h3{
+    color: var(--vermelho);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h1{
+    color: var(--branco);
+    font-size: 58px;
+    font-weight: 700;
+}
+
+h1 span{
+    color: var(--vermelho);
+    font-size: 58px;
+    font-weight: 800;
+}
+
+p{
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botao a{
+    position: fixed;
+    margin-left: 130px;
+    bottom: 40%;
+    left: 40px;
+    font-size: 20px;
+
+    color: var(--branco);
+    background-color: transparent;
+    border: 2px solid var(--vermelho);
+
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.botao :hover{
+    background-color: var(--vermelho);
+    color:var(--branco) ;
+}
+
+.botao2 a{
+    position: fixed;
+    margin-left: 300px;
+    bottom: 40%;
+    left: 40px;
+    font-size: 20px;
+
+    color: var(--branco);
+    background-color: transparent;
+    border: 2px solid var(--vermelho);
+
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.botao2 :hover{
+    background-color: var(--vermelho);
+    color:var(--branco) ;
 }
 
 .foto {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 500px;
+    width: 800px;
     z-index: 100;
 }
 
 .foto img {
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     height: auto;
 }
+
