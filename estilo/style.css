@@ -108,6 +108,21 @@ header nav ul a{
     overflow-wrap: break-word;
 }
 
+div.caixa img{
+    width: 700px;
+    max-width: 800px;
+    height: auto;
+}
+
+.caixa{
+    position: fixed;
+    bottom: -1px;
+    right: 20px;
+    width: 800px;
+    z-index: 100;
+    animation: aparecer 1s ease-out;
+}
+
 
 .botao a{
     position: fixed;
