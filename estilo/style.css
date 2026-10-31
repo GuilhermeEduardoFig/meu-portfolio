@@ -26,6 +26,7 @@ header{
     left: 55%;
     top: 1.2%;
     width: 600px;
+     animation: aparecer 1s ease-out;
 }
 
 header nav ul a{
@@ -35,6 +36,13 @@ header nav ul a{
     color: white;
     font-size: 18px;
     font-weight: 600;
+     transition: 0.3s ease;
+}
+
+header nav ul a:hover{
+    color: var(--vermelho);
+    transition: 0.2s;
+     transform: translateY(-5px);
 }
 
 
@@ -123,6 +131,50 @@ div.caixa img{
     animation: aparecer 1s ease-out;
 }
 
+div.github a img{
+    width: 60px;
+    max-width: 500px;
+    height: auto;
+}
+
+.github {
+    background-color: var(--fundo);
+    position: fixed;
+    bottom: 100%px;
+    right: 18%;
+    width: 80px;
+    z-index: 100;
+    border-radius: 20px;
+    animation: aparecer 1s ease-out;
+
+    transition: 0.3s ease;
+}
+
+.github:hover{
+    transform: translateY(-2px);
+}
+.link:hover{
+    transform: translateY(-2px);
+}
+
+div.link a img{
+    width: 78px;
+    max-width: 500px;
+    height: auto;
+}
+
+.link{
+    background-color: var(--fundo);
+    position: fixed;
+    bottom: 91%;
+    right: 14%;
+    width: 80px;
+    z-index: 100;
+    border-radius: 20px;
+    animation: aparecer 1s ease-out;
+
+    transition: 0.3s ease;
+}
 
 .botao a{
     position: fixed;
@@ -138,6 +190,8 @@ div.caixa img{
     border-radius: 30px;
     padding: 10px;
 
+    transition: 0,3s ease;
+
     animation: aparecer2 1s ease-out;
 
 }
@@ -145,7 +199,9 @@ div.caixa img{
 .botao :hover{
     background-color: var(--vermelho);
     color:var(--branco) ;
+    transform: translateY(-3px);
 }
+
 
 .botao2 a{
     position: fixed;
@@ -161,6 +217,8 @@ div.caixa img{
     border-radius: 30px;
     padding: 10px;
 
+    transition: 0.3s ease;
+
     animation: aparecer2 1s ease-out;
 
 }
@@ -168,7 +226,9 @@ div.caixa img{
 .botao2 :hover{
     background-color: var(--vermelho);
     color:var(--branco) ;
+    transform: translateY(-3px);
 }
+
 
 .foto {
     position: fixed;
