@@ -47,29 +47,67 @@ header nav ul a{
     animation: aparecer2 1s ease-out;
 }
 
-h3{
+.nome h3{
     color: var(--vermelho);
     font-size: 24px;
     font-weight: 700;
 }
 
-h1{
+.nome h1{
     color: var(--branco);
     font-size: 58px;
     font-weight: 700;
 }
 
-h1 span{
+.nome h1 span{
     color: var(--vermelho);
     font-size: 58px;
     font-weight: 800;
 }
 
-p{
+.nome p{
     color: var(--branco);
     font-size: 20px;
     font-weight: 400;
 }
+
+
+.info{
+    position: fixed;
+    margin-left: 20px;
+    bottom: 55%;
+    left: 150px;
+    font-size: 20px;
+    animation: aparecer2 1s ease-out;
+}
+
+.info h3{
+    color: var(--vermelho);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info h1{
+    color: var(--branco);
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.info h1 span{
+    color: var(--vermelho);
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.info p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--branco);
+    max-width: 700px;
+    width: 100%;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+}
+
 
 .botao a{
     position: fixed;
